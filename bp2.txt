@@ -1,0 +1,47 @@
+4.1 int sum(int arr[],int n){
+   if(n==-1)
+   return 0;
+ else return (arr[n-1]+sum(arr,--n));
+}
+
+4.2 int count(int arr[],int n){
+    if(n==-1)
+    return 0;
+    else return 1+count(arr,--n);
+}
+
+4.3  int max(int arr[],int n){
+static int maximum=arr[0];
+if(n==0)
+return maximum; 
+else if(arr[n-1]>maximum)
+maximum=arr[n-1];
+else return max(arr,--n);
+}
+
+4.4 the recursive case is spliting the array in two halfs , the base is when the array mid
+is the number which is desired.
+
+4.5 O(n)
+4.6 O(n)
+4.7 O(1)
+
+4.8 two loops then O(n^2)
+
+
+5.1 inconsistent
+5.2 inconsistent
+5.3 inconsistent
+5.4 consistent
+5.5 c,d
+5.6 b,d
+5.7 b,c,d
+
+6.1 2 edges
+6.2 2 edges
+6.3 A.invalid 
+    b.valid
+    c.invalid
+6.4 1-wake up 2-excersize 3-shower 4-get dressed 5-brush teeth
+6- have breakfast 7-pack lunch
+6.5 a.tree b. not a tree c.tree
