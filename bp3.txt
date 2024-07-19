@@ -1,0 +1,19 @@
+7.1 8
+    60
+    4 (Tecnically no shortest path is right)
+
+
+8.1 put the largest box which will fit in the remaining space and
+repeat until you can’t put any more boxes in & not optimal
+8.2 pick the activity with the highest points until you don't have anymore
+time , not optimal.
+8.3 no
+8.4 yes 
+8.5 yes
+8.6 yes 
+8.7 yes 
+8.8 yes
+
+9.1 yes because i can add a lot more
+9.2 water food camera 
+9.3 L 1 U2 E3
